@@ -1,5 +1,5 @@
 export enum TipoDeCarta {
     numeros,
-    naosei,
+    horas,
     cafe
 }

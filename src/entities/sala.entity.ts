@@ -6,7 +6,7 @@ import { Jogador } from './jogador.entity';
 
 export type SalaDocument = Sala & Document;
 
-@Schema({ collection: 'sala' })
+@Schema({ collection: 'Salas' })
 export class Sala {
   @Prop()
   nome: string;

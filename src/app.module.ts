@@ -9,7 +9,7 @@ import { RouterModule } from '@nestjs/core/router';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://acdigital:4cdigit4l@cluster0.6l6ps.mongodb.net/planning-poker?retryWrites=true&w=majority'),
+    MongooseModule.forRoot('mongodb+srv://acdigital:MhL2Or7NV4xyCkjq@pp-database.pikznye.mongodb.net/pp-database'),
     AdministradorModule,
     SalaModule, 
     HistoriaModule,

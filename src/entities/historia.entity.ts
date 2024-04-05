@@ -4,7 +4,7 @@ import { Document } from 'mongoose';
 
 export type HistoriaDocument = Historia & Document;
 
-@Schema({collection: 'historia'})
+@Schema({collection: 'Historias'})
 export class Historia {
     @Prop()
     idSala?: string
